@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.frame{
+width: 390px;
+height: 844px;
+background: #FFF;
+margin-left: auto;
+margin-right: auto;
+border:5px solid;
+}
+.homebar{
+  display:inline;
+  margin:0 auto;
+}
+#char{
+  float:left;
+  margin-top:3%;
+}
+.buh{
+  background-color: transparent;
+  border-color:transparent;
+  width: auto;
+  height: 52px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  display:inline;
+  float:right;
+  margin-top:4%;
+}
+#submitles{
+  margin-top:40%;
+  margin-left:7%;
+  margin-right:auto;
+}
+.buttons{
+  width: 244px;
+height: 65px;
+flex-shrink: 0;
+  border-radius: 15px;
+background: #C3FF45;
+  margin-right:auto;
+  margin-left:10%;
+  text-align: center;
+  font-family: Lexend ;
+  font-size:15px;
+}
+ #lo{
+   margin-top:20%;
+ }

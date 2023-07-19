@@ -53,6 +53,10 @@ flex-shrink: 0;
   display:inline;
   margin:0 auto;
 }
+#char{
+  float:left;
+  margin-top:3%;
+}
 .buh{
   background-color: transparent;
   border-color:transparent;
@@ -141,4 +145,66 @@ margin-top:30%;
   background-color: #ffffff;
   cursor: pointer;
   outline: none;
+}
+.send-a-star{
+width: 186px;
+height: 110px;
+flex-shrink: 0;
+background-color: #C3FF45;
+border-radius:15px;
+margin-left:auto;
+margin-right:auto;
+margin-top:40%;
+color: #000;
+text-align: center;
+font-family: Lexend;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#stupid-pic{
+  margin-top:10%;
+}
+#buttons{
+width: 244px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #C3FF45;
+margin-left:auto;
+margin-right:auto;
+margin-top:30%;
+}
+.button-font{
+width: 241px;
+height: 38px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Lexend;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top:10%;
+}
+#buttonss{
+width: 244px;
+height: 65px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #C3FF45;
+margin-right:auto;
+margin-left:auto;
+margin-top:20%;
+}
+#stamp-collection{
+  margin-left:22%;
+  margin-top:10%;
+  align-items: center;
+}
+#song-collection{
+  margin-left:6%;
+  margin-top:10%;
 }

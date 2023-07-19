@@ -1,7 +1,8 @@
 const loginForm = document.getElementById("login-form");
 const loginButton = document.getElementById("login-form-submit");
 const loginErrorMsg = document.getElementById("login-error-msg");
-
+const getpic = document.getElementById("fu");
+const yourbutton = document.getElementById("lo");
 loginButton.addEventListener("click", (e) => {
     e.preventDefault();
     const username = loginForm.username.value;
@@ -14,6 +15,12 @@ loginButton.addEventListener("click", (e) => {
         loginErrorMsg.style.opacity = 1;
     }
 })
+
+function dewy(){
+  var t = document.getElementById('doll');
+  var filename = t.datafile.value;
+  window.open("recieve.html", "_self");
+}
 function hewy(){
   window.open("send.html", "_self");
 }
